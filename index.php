@@ -12,7 +12,7 @@ session_start();
    if(!$db){
       echo $db->lastErrorMsg();
    } else {
-      //echo "Opened database successfully\n";
+      echo "Opened database successfully\n";
    }
 
    $sql ='SELECT * from USERS where USERNAME="'.$_POST["usr_name"].'";';
@@ -35,7 +35,7 @@ session_start();
       }else{
        echo "User not exist, please register to continue!";
       }
-   //echo "Operation done successfully\n";
+   echo "Operation done successfully\n";
    $db->close();
      }
 
