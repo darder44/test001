@@ -12,8 +12,6 @@
     <rule ref="PSR2"/>
 
     <!-- Paths and file to check -->
-    <file>_installation</file>
-    <file>libraries</file>
     <file>config.php</file>
     <file>login.php</file>
     <file>register.php</file>
