@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<ruleset>
+    <!-- display progress and sniff -->
+    <arg value="n"/>
+    <arg value="p"/>
+    <arg value="s"/>
+
+    <!-- use colors in output -->
+    <arg name="colors"/>
+
+    <!-- inherit rules from: -->
+    <rule ref="PSR2"/>
+
+    <!-- Paths and file to check -->
+    <file>_installation</file>
+    <file>libraries</file>
+    <file>config.php</file>
+    <file>login.php</file>
+    <file>register.php</file>
+    <file>welcome.php</file>
+
+    <!-- Don't check Smarty because it's third-party lib -->
+    <exclude-pattern>cd_ci/*</exclude-pattern>
+</ruleset>
