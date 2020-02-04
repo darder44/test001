@@ -7,7 +7,7 @@ class HelloTest extends TestCase
     {
         $this->assertEquals('bar', 'bar');
     }
-    function testLogin()
+    function testLogin() 
     {
         $this->assertEquals('xxx', 'xxx');
     }
